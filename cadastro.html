@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aí Dentro Empregos - Home</title>
+    <title>Ai Dentro Empregos - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -40,60 +40,254 @@
         </div>
     </nav>
 
-    <header class="text-start bg-danger hero ">
+    <header class="text-start bg-danger hero">
         <div class="container">
-            <h1 class="mb-2 fw-bold text-white">Seu próximo passo começa aqui</h1>
-            <h2 class="lead col-md-8 ">Encontre oportunidades profissionais ou conecte sua empresa aos talentos que
-                procura.</h2>
-            <button class="btn btn-dark text-white">Saiba Mais</button>
-            <button class="btn border-1 border-dark text-white">Cadastre seu Currículo</button>
-            <img src="img/foto2.jfif" alt="" class="img-fluid rounded float-end">
+            <h1 class="mb-2 fw-bold text-white">Área de Cadastro</h1>
+            <h2 class="lead col-md-8 text-white">Cadastre seu currículo gratuitamente ou cadastre sua empresa para
+                divulgar vagas.</h2>
+            <a href="#candidato" class="btn btn-dark text-white">Sou candidato</a>
+            <a href="#empresa" class="btn border-1 border-dark text-white">Sou empresa</a>
         </div>
     </header>
 
     <main class="container my-5">
         <section class="row align-items-center mb-5 bg-white p-4 rounded shadow-sm">
             <div class="col-md-6">
-                <p class="text-uppercase fw-bold">Busca de vagas</p>
-                <h1 class="fw-bold">Encontre uma oportunidade</h1>
-                <p>Encontre vagas de acordo com sua área, localização ou tipo de contratação.</p>
+                <p class="text-uppercase fw-bold">Cadastro</p>
+                <h1 class="fw-bold">Escolha como quer entrar</h1>
+                <p>Se você procura emprego, faça o cadastro de candidato. Se você quer contratar, faça o cadastro de
+                    empresa.</p>
             </div>
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
-                        <h2>Cargo ou palavra-chave</h2>
-                        <p class="text-muted italic"><strong>Ex:</strong> Auxiliar Administrativo</p>
+                        <h2>Candidato</h2>
+                        <p class="text-muted"><strong>Ex:</strong> envio de currículo e alerta de vagas</p>
+                        <a href="#candidato" class="btn btn-dark text-white">Cadastrar currículo</a>
                     </div>
                     <div class="col-md-6">
-                        <h2>Localização</h2>
-                        <p class="text-muted italic"><strong>Ex:</strong> Santos - SP</p>
-                        <button class="btn btn-dark text-white">Buscar Vagas</button>
+                        <h2>Empresa</h2>
+                        <p class="text-muted"><strong>Ex:</strong> publicar vagas em Santos - SP</p>
+                        <a href="#empresa" class="btn border-1 border-dark">Cadastrar empresa</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="row align-items-center mb-5 bg-white p-4 rounded shadow-sm border-top border-danger border-4">
-            <div class="col-md-6">
-                <h2>Está procurando emprego?</h2>
-                <p>Cadastre seu currículo gratuitamente e fique disponível para novas oportunidades.</p>
-                <button class="btn btn-dark text-white">Cadastrar currículo</button>
-            </div>
-            <div class="col-md-6">
-                <h1>Precisa contratar?</h1>
-                <p>Encontre profissionais para fazer parte da sua equipe.</p>
-                <button class="btn border-1 border-dark">Conheça nossas soluções</button>
+        <section id="candidato" class="row mb-5 bg-white p-4 rounded shadow-sm border-top border-danger border-4">
+            <div class="col-12">
+                <h2>Cadastro de candidato</h2>
+                <p>Preencha seus dados para concorrer às vagas disponíveis.</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-person"></i> Nome completo</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Ex: Maria Silva Santos"
+                                    name="nome">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-calendar"></i> Data de nascimento</label>
+                                <input type="date" class="form-control" id="dataNascimento" name="dataNascimento">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-envelope"></i> E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="voce@email.com"
+                                    name="email">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-phone"></i> Celular / WhatsApp</label>
+                                <input type="tel" class="form-control" id="celular" placeholder="(13) 99999-9999"
+                                    name="celular">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-credit-card"></i> CPF</label>
+                                <input type="text" class="form-control" inputmode="numeric" id="cpf"
+                                    placeholder="000.000.000-00" maxlength="14" name="cpf">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label for="cep"><i class="bi bi-mailbox"></i> Cep</label>
+                                <input class="form-control" type="text" inputmode="numeric" id="cep" name="cep"
+                                    maxlength="9">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-buildings"></i> Cidade</label>
+                                <input type="text" class="form-control" id="cidade" disabled name="cidade">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-houses"></i> Bairro</label>
+                                <input type="text" class="form-control" id="bairro" disabled name="bairro">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-flag disabled"></i> UF</label>
+                                <input type="text" class="form-control" id="uf" disabled name="uf">
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="form-group mt-4">
+                                <label for="logradouro"><i class="bi bi-signpost-2"></i> Logradouro</label>
+                                <input class="form-control" type="text" id="logradouro" name="logradouro" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-briefcase"></i> Área de interesse</label>
+                                <select class="form-select" id="areaInteresse">
+                                    <option>Administrativo</option>
+                                    <option>Comercial / Vendas</option>
+                                    <option>Logística</option>
+                                    <option>Saúde</option>
+                                    <option>Tecnologia</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-book"></i> Escolaridade</label>
+                                <select class="form-select" id="escolaridade">
+                                    <option>Ensino Médio</option>
+                                    <option>Técnico</option>
+                                    <option>Superior incompleto</option>
+                                    <option>Superior completo</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-file-earmark-pdf"></i> Currículo (PDF)</label>
+                                <input type="file" class="form-control" name="curriculum">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-key"></i> Senha</label>
+                                <input type="password" class="form-control" id="senha"
+                                    placeholder="Mínimo 6 caracteres">
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-card-text"></i> Resumo profissional</label>
+                                <textarea class="form-control" rows="3"
+                                    placeholder="Fale um pouco sobre você e o que procura."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="form-group">
+                                <input type="checkbox" class="form-check-input" id="aceitoTermos">
+                                <label class="form-check-label" for="aceitoTermos">Aceito o uso dos meus dados para
+                                    recrutamento.</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-dark text-white">Cadastrar currículo</button>
+                            <button type="reset" class="btn border-1 border-dark">Limpar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
 
-        <section class="row align-items-center mb-5 bg-white p-4 rounded shadow-sm border-top border-danger border-4">
-            <div class="col-md-6">
-                <h2>Encontre seu próximo caminho profissional</h2>
-                <p>Milhares de oportunidades podem começar com uma simples busca.</p>
-                <button class="btn border-1 border-dark">Ver vagas disponíveis</button>
-            </div>
-            <div class="col-md-6">
-                <img src="img/foto1.jfif" alt="" class="img-fluid rounded float-end">
+        <section id="empresa" class="row mb-5 bg-white p-4 rounded shadow-sm border-top border-danger border-4">
+            <div class="col-12">
+                <h2>Cadastro de empresa</h2>
+                <p>Cadastre sua empresa para publicar vagas e encontrar profissionais.</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-building"></i> Razão social</label>
+                                <input type="text" class="form-control" id="razaoSocial"
+                                    placeholder="Ex: Silva Log Ltda">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-credit-card"></i> CNPJ</label>
+                                <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0001-00">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-person"></i> Nome do responsável</label>
+                                <input type="text" class="form-control" id="nomeResponsavel"
+                                    placeholder="Quem cuida das vagas">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-envelope"></i> E-mail corporativo</label>
+                                <input type="email" class="form-control" id="emailCorporativo"
+                                    placeholder="rh@suaempresa.com.br">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-phone"></i> Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(13) 3000-0000">
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-city"></i> Cidade</label>
+                                <input type="text" class="form-control" id="cidade" placeholder="Ex: Santos">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-flag"></i> UF</label>
+                                <select class="form-select" id="uf">
+                                    <option>SP</option>
+                                    <option>RJ</option>
+                                    <option>MG</option>
+                                    <option>Outro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-briefcase"></i> Que vaga precisa
+                                    preencher?</label>
+                                <textarea class="form-control" id="vaga" rows="3"
+                                    placeholder="Ex: Auxiliar administrativo, presencial, manhã/tarde."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label class="form-label"><i class="bi bi-key"></i> Senha</label>
+                                <input type="password" class="form-control" id="senha"
+                                    placeholder="Mínimo 6 caracteres">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <br>
+                                <input type="checkbox" class="form-check-input" id="aceitoTermos">
+                                <label class="form-check-label" for="aceitoTermos">Aceito o contato comercial.</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-dark text-white">Cadastrar empresa</button>
+                            <button type="reset" class="btn border-1 border-dark">Limpar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
@@ -106,7 +300,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="./js/meu.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
