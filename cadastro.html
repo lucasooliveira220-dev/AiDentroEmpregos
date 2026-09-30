@@ -17,6 +17,7 @@
             padding: 60px 0;
         }
     </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -80,123 +81,91 @@
                 <p>Preencha seus dados para concorrer às vagas disponíveis.</p>
                 <form>
                     <div class="row">
-                        <div class="col-md-8 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-person"></i> Nome completo</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Ex: Maria Silva Santos"
-                                    name="nome">
-                            </div>
+                        <div class="form-group col-md-8 mb-3">
+                            <label class="form-label"><i class="bi bi-person"></i> Nome completo</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Ex: Maria Silva Santos"
+                                name="nome">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-calendar"></i> Data de nascimento</label>
-                                <input type="date" class="form-control" id="dataNascimento" name="dataNascimento">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-calendar"></i> Data de nascimento</label>
+                            <input type="date" class="form-control" id="dataNascimento" name="dataNascimento">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-envelope"></i> E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="voce@email.com"
-                                    name="email">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-envelope"></i> E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="voce@email.com"
+                                name="email">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-phone"></i> Celular / WhatsApp</label>
-                                <input type="tel" class="form-control" id="celular" placeholder="(13) 99999-9999"
-                                    name="celular">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-phone"></i> Celular / WhatsApp</label>
+                            <input type="text" class="form-control" inputmode="numeric" id="celular"
+                                placeholder="13999999999" name="celular" maxlength="11">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-credit-card"></i> CPF</label>
-                                <input type="text" class="form-control" inputmode="numeric" id="cpf"
-                                    placeholder="000.000.000-00" maxlength="14" name="cpf">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-credit-card"></i> CPF</label>
+                            <input type="text" class="form-control" inputmode="numeric" id="cpf"
+                                placeholder="00000000000" maxlength="11" name="cpf">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label for="cep"><i class="bi bi-mailbox"></i> Cep</label>
-                                <input class="form-control" type="text" inputmode="numeric" id="cep" name="cep"
-                                    maxlength="9">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label" for="cep"><i class="bi bi-mailbox"></i> Cep</label>
+                            <input class="form-control" type="text" inputmode="numeric" id="cep" name="cep"
+                                placeholder="00000000" maxlength="8">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-buildings"></i> Cidade</label>
-                                <input type="text" class="form-control" id="cidade" disabled name="cidade">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-buildings"></i> Cidade</label>
+                            <input type="text" class="form-control" id="cidade" disabled name="cidade">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-houses"></i> Bairro</label>
-                                <input type="text" class="form-control" id="bairro" disabled name="bairro">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-houses"></i> Bairro</label>
+                            <input type="text" class="form-control" id="bairro" disabled name="bairro">
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-flag disabled"></i> UF</label>
-                                <input type="text" class="form-control" id="uf" disabled name="uf">
-                            </div>
+                        <div class="form-group col-md-3 mb-3">
+                            <label class="form-label"><i class="bi bi-flag disabled"></i> UF</label>
+                            <input type="text" class="form-control" id="uf" disabled name="uf">
                         </div>
-                        <div class="col-md-5 mb-3">
-                            <div class="form-group mt-4">
-                                <label for="logradouro"><i class="bi bi-signpost-2"></i> Logradouro</label>
-                                <input class="form-control" type="text" id="logradouro" name="logradouro" disabled>
-                            </div>
+                        <div class="form-group col-md-5 mb-3">
+                            <label class="form-label" for="logradouro"><i class="bi bi-signpost-2"></i> Logradouro</label>
+                            <input class="form-control" type="text" id="logradouro" name="logradouro" disabled>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-briefcase"></i> Área de interesse</label>
-                                <select class="form-select" id="areaInteresse">
-                                    <option>Administrativo</option>
-                                    <option>Comercial / Vendas</option>
-                                    <option>Logística</option>
-                                    <option>Saúde</option>
-                                    <option>Tecnologia</option>
-                                </select>
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-briefcase"></i> Área de interesse</label>
+                            <select class="form-select" id="areaInteresse">
+                                <option>Administrativo</option>
+                                <option>Comercial / Vendas</option>
+                                <option>Logística</option>
+                                <option>Saúde</option>
+                                <option>Tecnologia</option>
+                            </select>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-book"></i> Escolaridade</label>
-                                <select class="form-select" id="escolaridade">
-                                    <option>Ensino Médio</option>
-                                    <option>Técnico</option>
-                                    <option>Superior incompleto</option>
-                                    <option>Superior completo</option>
-                                </select>
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-book"></i> Escolaridade</label>
+                            <select class="form-select" id="escolaridade">
+                                <option>Ensino Médio</option>
+                                <option>Técnico</option>
+                                <option>Superior incompleto</option>
+                                <option>Superior completo</option>
+                            </select>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-file-earmark-pdf"></i> Currículo (PDF)</label>
-                                <input type="file" class="form-control" name="curriculum">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-file-earmark-pdf"></i> Currículo (PDF)</label>
+                            <input type="file" class="form-control" name="curriculum">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-key"></i> Senha</label>
-                                <input type="password" class="form-control" id="senha"
-                                    placeholder="Mínimo 6 caracteres">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-key"></i> Senha</label>
+                            <input type="password" class="form-control" id="senha"
+                                placeholder="Mínimo 6 caracteres">
                         </div>
-                        <div class="col-12 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-card-text"></i> Resumo profissional</label>
-                                <textarea class="form-control" rows="3"
-                                    placeholder="Fale um pouco sobre você e o que procura."></textarea>
-                            </div>
+                        <div class="form-group col-12 mb-3">
+                            <label class="form-label"><i class="bi bi-card-text"></i> Resumo profissional</label>
+                            <textarea class="form-control" rows="3"
+                                placeholder="Fale um pouco sobre você e o que procura."></textarea>
                         </div>
-                        <div class="col-12 mb-3">
-                            <div class="form-group">
-                                <input type="checkbox" class="form-check-input" id="aceitoTermos">
-                                <label class="form-check-label" for="aceitoTermos">Aceito o uso dos meus dados para
-                                    recrutamento.</label>
-                            </div>
+                        <div class="form-group col-12 mb-3">
+                            <input type="checkbox" class="form-check-input" id="aceitoTermos">
+                            <label class="form-check-label" for="aceitoTermos">Aceito o uso dos meus dados para
+                                recrutamento.</label>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-dark text-white">Cadastrar currículo</button>
+                            <button class="btn btn-dark text-white" id="btnCadastrar">Cadastrar currículo</button>
                             <button type="reset" class="btn border-1 border-dark">Limpar</button>
                         </div>
                     </div>
@@ -210,80 +179,59 @@
                 <p>Cadastre sua empresa para publicar vagas e encontrar profissionais.</p>
                 <form>
                     <div class="row">
-                        <div class="col-md-8 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-building"></i> Razão social</label>
-                                <input type="text" class="form-control" id="razaoSocial"
-                                    placeholder="Ex: Silva Log Ltda">
-                            </div>
+                        <div class="form-group col-md-8 mb-3">
+                            <label class="form-label"><i class="bi bi-building"></i> Razão social</label>
+                            <input type="text" class="form-control" id="razaoSocial"
+                                placeholder="Ex: Silva Log Ltda">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-credit-card"></i> CNPJ</label>
-                                <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0001-00">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-credit-card"></i> CNPJ</label>
+                            <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0001-00">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-person"></i> Nome do responsável</label>
-                                <input type="text" class="form-control" id="nomeResponsavel"
-                                    placeholder="Quem cuida das vagas">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-person"></i> Nome do responsável</label>
+                            <input type="text" class="form-control" id="nomeResponsavel"
+                                placeholder="Quem cuida das vagas">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-envelope"></i> E-mail corporativo</label>
-                                <input type="email" class="form-control" id="emailCorporativo"
-                                    placeholder="rh@suaempresa.com.br">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-envelope"></i> E-mail corporativo</label>
+                            <input type="email" class="form-control" id="emailCorporativo"
+                                placeholder="rh@suaempresa.com.br">
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-phone"></i> Telefone</label>
-                                <input type="tel" class="form-control" id="telefone" placeholder="(13) 3000-0000">
-                            </div>
+                        <div class="form-group col-md-4 mb-3">
+                            <label class="form-label"><i class="bi bi-phone"></i> Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="(13) 3000-0000">
                         </div>
-                        <div class="col-md-5 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-city"></i> Cidade</label>
-                                <input type="text" class="form-control" id="cidade" placeholder="Ex: Santos">
-                            </div>
+                        <div class="form-group col-md-5 mb-3">
+                            <label class="form-label"><i class="bi bi-city"></i> Cidade</label>
+                            <input type="text" class="form-control" id="cidade" placeholder="Ex: Santos">
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-flag"></i> UF</label>
-                                <select class="form-select" id="uf">
-                                    <option>SP</option>
-                                    <option>RJ</option>
-                                    <option>MG</option>
-                                    <option>Outro</option>
-                                </select>
-                            </div>
+                        <div class="form-group col-md-3 mb-3">
+                            <label class="form-label"><i class="bi bi-flag"></i> UF</label>
+                            <select class="form-select" id="uf">
+                                <option>SP</option>
+                                <option>RJ</option>
+                                <option>MG</option>
+                                <option>Outro</option>
+                            </select>
                         </div>
-                        <div class="col-12 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-briefcase"></i> Que vaga precisa
-                                    preencher?</label>
-                                <textarea class="form-control" id="vaga" rows="3"
-                                    placeholder="Ex: Auxiliar administrativo, presencial, manhã/tarde."></textarea>
-                            </div>
+                        <div class="form-group col-12 mb-3">
+                            <label class="form-label"><i class="bi bi-briefcase"></i> Que vaga precisa
+                                preencher?</label>
+                            <textarea class="form-control" id="vaga" rows="3"
+                                placeholder="Ex: Auxiliar administrativo, presencial, manhã/tarde."></textarea>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <label class="form-label"><i class="bi bi-key"></i> Senha</label>
-                                <input type="password" class="form-control" id="senha"
-                                    placeholder="Mínimo 6 caracteres">
-                            </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label class="form-label"><i class="bi bi-key"></i> Senha</label>
+                            <input type="password" class="form-control" id="senha"
+                                placeholder="Mínimo 6 caracteres">
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <br>
-                                <input type="checkbox" class="form-check-input" id="aceitoTermos">
-                                <label class="form-check-label" for="aceitoTermos">Aceito o contato comercial.</label>
-                            </div>
+                        <div class="form-group col-md-6 mb-3 pt-4">
+                            <input type="checkbox" class="form-check-input" id="aceitoTermos">
+                            <label class="form-check-label" for="aceitoTermos">Aceito o contato comercial.</label>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-dark text-white">Cadastrar empresa</button>
+                            <button class="btn btn-dark text-white" id="btnCadastrar">Cadastrar empresa</button>
                             <button type="reset" class="btn border-1 border-dark">Limpar</button>
                         </div>
                     </div>
@@ -300,7 +248,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

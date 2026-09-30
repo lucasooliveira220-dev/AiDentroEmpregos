@@ -1,0 +1,70 @@
+@media (max-width: 767.98px) {
+	.hero {
+		padding: 2rem 0 !important;
+	}
+
+	.hero h1 {
+		font-size: 1.75rem;
+	}
+
+	.hero h2 {
+		font-size: 1.05rem;
+	}
+
+	main.container > .row,
+	.hero.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.hero .float-end {
+		display: block;
+		float: none !important;
+		width: 100% !important;
+		max-height: 280px;
+		margin: 1.25rem auto 0;
+		object-fit: cover;
+	}
+
+	.about-image {
+		width: 100% !important;
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.logo {
+		height: 56px;
+		width: auto;
+	}
+
+	main.container {
+		margin-top: 1.5rem !important;
+		margin-bottom: 1.5rem !important;
+	}
+
+	main.container > section.row {
+		padding: 1.25rem !important;
+	}
+
+	.hero .btn {
+		display: block;
+		width: 100%;
+		margin-top: 0.5rem;
+	}
+
+	.form-control,
+	.form-select {
+		min-height: 44px;
+	}
+
+	.card-img-top {
+		height: 190px;
+	}
+
+	footer small {
+		display: block;
+		line-height: 1.6;
+	}
+}
