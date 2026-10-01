@@ -23,8 +23,9 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top border-bottom border-3 border-dark">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">
-                <img src="img/logo.png" class="img-fluid logo">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" class="img-fluid logo me-2">
+                <h3 class="fw-bold text-dark m-0">Ai Dentro Empregos</h3>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -123,7 +124,8 @@
                             <input type="text" class="form-control" id="uf" disabled name="uf">
                         </div>
                         <div class="form-group col-md-5 mb-3">
-                            <label class="form-label" for="logradouro"><i class="bi bi-signpost-2"></i> Logradouro</label>
+                            <label class="form-label" for="logradouro"><i class="bi bi-signpost-2"></i>
+                                Logradouro</label>
                             <input class="form-control" type="text" id="logradouro" name="logradouro" disabled>
                         </div>
                         <div class="form-group col-md-6 mb-3">
@@ -151,8 +153,7 @@
                         </div>
                         <div class="form-group col-md-6 mb-3">
                             <label class="form-label"><i class="bi bi-key"></i> Senha</label>
-                            <input type="password" class="form-control" id="senha"
-                                placeholder="Mínimo 6 caracteres">
+                            <input type="password" class="form-control" id="senha" placeholder="Mínimo 6 caracteres">
                         </div>
                         <div class="form-group col-12 mb-3">
                             <label class="form-label"><i class="bi bi-card-text"></i> Resumo profissional</label>
@@ -181,17 +182,17 @@
                     <div class="row">
                         <div class="form-group col-md-8 mb-3">
                             <label class="form-label"><i class="bi bi-building"></i> Razão social</label>
-                            <input type="text" class="form-control" id="razaoSocial"
-                                placeholder="Ex: Silva Log Ltda">
+                            <input type="text" class="form-control" id="razaoSocial" disabled>
                         </div>
                         <div class="form-group col-md-4 mb-3">
                             <label class="form-label"><i class="bi bi-credit-card"></i> CNPJ</label>
-                            <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0001-00">
+                            <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0001-00"
+                                maxlength="18">
                         </div>
                         <div class="form-group col-md-6 mb-3">
                             <label class="form-label"><i class="bi bi-person"></i> Nome do responsável</label>
                             <input type="text" class="form-control" id="nomeResponsavel"
-                                placeholder="Quem cuida das vagas">
+                                disabled>
                         </div>
                         <div class="form-group col-md-6 mb-3">
                             <label class="form-label"><i class="bi bi-envelope"></i> E-mail corporativo</label>
@@ -205,7 +206,7 @@
                         <div class="form-group col-md-4 mb-3">
                             <label class="form-label" for="cepEmpresa"><i class="bi bi-mailbox"></i> CEP</label>
                             <input type="text" class="form-control" inputmode="numeric" id="cepEmpresa"
-                                name="cepEmpresa" placeholder="00000000" maxlength="8">
+                                name="cepEmpresa" maxlength="8" disabled>
                         </div>
                         <div class="form-group col-md-4 mb-3">
                             <label class="form-label" for="cidadeEmpresa"><i class="bi bi-city"></i> Cidade</label>
@@ -220,8 +221,10 @@
                             <input type="text" class="form-control" id="ufEmpresa" name="ufEmpresa" disabled>
                         </div>
                         <div class="form-group col-md-5 mb-3">
-                            <label class="form-label" for="logradouroEmpresa"><i class="bi bi-signpost-2"></i> Logradouro</label>
-                            <input type="text" class="form-control" id="logradouroEmpresa" name="logradouroEmpresa" disabled>
+                            <label class="form-label" for="logradouroEmpresa"><i class="bi bi-signpost-2"></i>
+                                Logradouro</label>
+                            <input type="text" class="form-control" id="logradouroEmpresa" name="logradouroEmpresa"
+                                disabled>
                         </div>
                         <div class="form-group col-12 mb-3">
                             <label class="form-label"><i class="bi bi-briefcase"></i> Que vaga precisa
@@ -231,8 +234,7 @@
                         </div>
                         <div class="form-group col-md-6 mb-3">
                             <label class="form-label"><i class="bi bi-key"></i> Senha</label>
-                            <input type="password" class="form-control" id="senha"
-                                placeholder="Mínimo 6 caracteres">
+                            <input type="password" class="form-control" id="senha" placeholder="Mínimo 6 caracteres">
                         </div>
                         <div class="form-group col-md-6 mb-3 pt-4">
                             <input type="checkbox" class="form-check-input" id="aceitoTermos">
@@ -248,9 +250,33 @@
         </section>
     </main>
 
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        <div class="container">
-            <small>2026 &copy; Lucas Rozario de Oliveira e Vinicius Ferreira Santos </small>
+    <footer class="bg-dark text-white mt-5s">
+        <div class="container py-4">
+            <div class="row align-items-center">
+    
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="fw-bold">Ai Dentro Empregos</h5>
+                    <p class="mb-0 text-white-50">
+                        Conectando profissionais a novas oportunidades.
+                    </p>
+                </div>
+    
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="index.html" class="text-white text-decoration-none me-3">Home</a>
+                    <a href="sobre.html" class="text-white text-decoration-none me-3">Sobre</a>
+                    <a href="vagas.html" class="text-white text-decoration-none me-3">Vagas</a>
+                    <a href="servicos.html" class="text-white text-decoration-none">Serviços</a>
+                </div>
+    
+            </div>
+    
+            <hr class="border-secondary my-3">
+    
+            <div class="text-center">
+                <small class="text-white-50">
+                    2026 &copy; Lucas Rozario de Oliveira e Vinicius Ferreira Santos
+                </small>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -258,4 +284,5 @@
         crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
