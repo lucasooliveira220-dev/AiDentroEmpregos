@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "cargo": "Contador(a)",
+    "cidade": "Santos - SP",
+    "empresa": "Rota Sul Transportes",
+    "tipo": "CLT",
+    "tempo": "Tempo Integral",
+    "salario": 6000,
+    "publicadaEm": "2026-10-07"
+  },
+  {
+    "id": 2,
+    "cargo": "Cuidador(a)",
+    "cidade": "Pintópolis - MG",
+    "empresa": "MaisWork",
+    "tipo": "PJ",
+    "tempo": "Tempo Integral",
+    "salario": 12000,
+    "publicadaEm": "2026-09-27"
+  },
+  {
+    "id": 3,
+    "cargo": "Analista de Dados",
+    "cidade": "Pindamonhangaba - SP",
+    "empresa": "Nova Era Serviços",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 10000,
+    "publicadaEm": "2026-09-30"
+  },
+  {
+    "id": 4,
+    "cargo": "Atendimento",
+    "cidade": "Pintópolis - MG",
+    "empresa": "Conecta Brasil",
+    "tipo": "Temporário",
+    "tempo": "Tempo Integral",
+    "salario": 6000,
+    "publicadaEm": "2026-09-08"
+  },
+  {
+    "id": 5,
+    "cargo": "Desenvolvedor Full Stack",
+    "cidade": "São paulo - SP",
+    "empresa": "Conecta Brasil",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 10000,
+    "publicadaEm": "2026-09-13"
+  },
+  {
+    "id": 6,
+    "cargo": "Operador de Produção",
+    "cidade": "Anta Gorda - SP",
+    "empresa": "LulaMais",
+    "tipo": "PJ",
+    "tempo": "Tempo Integral",
+    "salario": 7000,
+    "publicadaEm": "2026-09-14"
+  },
+  {
+    "id": 7,
+    "cargo": "Analista de Atendimento",
+    "cidade": "Rio de Janeiro - RJ",
+    "empresa": "Horizonte Soluções",
+    "tipo": "PJ",
+    "tempo": "Tempo Integral",
+    "salario": 12000,
+    "publicadaEm": "2026-09-24"
+  },
+  {
+    "id": 8,
+    "cargo": "Desenvolvedor Full Stack",
+    "cidade": "Pindamonhangaba - SP",
+    "empresa": "Alvorada Alimentos",
+    "tipo": "PJ",
+    "tempo": "Noturno",
+    "salario": 6000,
+    "publicadaEm": "2026-09-18"
+  },
+  {
+    "id": 9,
+    "cargo": "Cozinheiro(a)",
+    "cidade": "Pomerode - SC",
+    "empresa": "NexaTech",
+    "tipo": "CLT",
+    "tempo": "Noturno",
+    "salario": 13000,
+    "publicadaEm": "2026-09-29"
+  },
+  {
+    "id": 10,
+    "cargo": "Enfermeiro(a)",
+    "cidade": "Pintópolis - MG",
+    "empresa": "Grupo Vale Verde",
+    "tipo": "PJ",
+    "tempo": "Tempo Integral",
+    "salario": 7000,
+    "publicadaEm": "2026-09-30"
+  },
+  {
+    "id": 11,
+    "cargo": "Atendimento",
+    "cidade": "Pindamonhangaba - SP",
+    "empresa": "PontoCerto Logística",
+    "tipo": "PJ",
+    "tempo": "Noturno",
+    "salario": 7000,
+    "publicadaEm": "2026-09-27"
+  },
+  {
+    "id": 12,
+    "cargo": "Operador de Produção",
+    "cidade": "Pintópolis - MG",
+    "empresa": "NexaTech",
+    "tipo": "CLT",
+    "tempo": "Tempo Integral",
+    "salario": 3000,
+    "publicadaEm": "2026-09-28"
+  },
+  {
+    "id": 13,
+    "cargo": "Cozinheiro(a)",
+    "cidade": "Guarulhos - SP",
+    "empresa": "Horizonte Soluções",
+    "tipo": "Temporário",
+    "tempo": "Noturno",
+    "salario": 2000,
+    "publicadaEm": "2026-09-21"
+  },
+  {
+    "id": 14,
+    "cargo": "Operador de Produção",
+    "cidade": "Guarulhos - SP",
+    "empresa": "Horizonte Soluções",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 3000,
+    "publicadaEm": "2026-09-17"
+  },
+  {
+    "id": 15,
+    "cargo": "Analista de Atendimento",
+    "cidade": "São Vicente - SP",
+    "empresa": "Prisma Saúde",
+    "tipo": "Temporário",
+    "tempo": "Tempo Integral",
+    "salario": 12000,
+    "publicadaEm": "2026-09-11"
+  },
+  {
+    "id": 16,
+    "cargo": "Enfermeiro(a)",
+    "cidade": "Santos - SP",
+    "empresa": "MaisWork",
+    "tipo": "CLT",
+    "tempo": "Noturno",
+    "salario": 11000,
+    "publicadaEm": "2026-09-29"
+  },
+  {
+    "id": 17,
+    "cargo": "Auxiliar Administrativo",
+    "cidade": "São paulo - SP",
+    "empresa": "Nova Era Serviços",
+    "tipo": "PJ",
+    "tempo": "Noturno",
+    "salario": 6000,
+    "publicadaEm": "2026-09-21"
+  },
+  {
+    "id": 18,
+    "cargo": "Designer UX",
+    "cidade": "Anta Gorda - SP",
+    "empresa": "LulaMais",
+    "tipo": "Temporário",
+    "tempo": "Tempo Integral",
+    "salario": 5000,
+    "publicadaEm": "2026-09-14"
+  },
+  {
+    "id": 19,
+    "cargo": "Cuidador(a)",
+    "cidade": "São paulo - SP",
+    "empresa": "PontoCerto Logística",
+    "tipo": "CLT",
+    "tempo": "Tempo Integral",
+    "salario": 9000,
+    "publicadaEm": "2026-09-17"
+  },
+  {
+    "id": 20,
+    "cargo": "Operador de Produção",
+    "cidade": "São paulo - SP",
+    "empresa": "Conecta Brasil",
+    "tipo": "Estágio",
+    "tempo": "Tempo Integral",
+    "salario": 11000,
+    "publicadaEm": "2026-10-05"
+  },
+  {
+    "id": 21,
+    "cargo": "Operador de Produção",
+    "cidade": "São Vicente - SP",
+    "empresa": "Horizonte Soluções",
+    "tipo": "PJ",
+    "tempo": "Tempo Integral",
+    "salario": 10000,
+    "publicadaEm": "2026-09-26"
+  },
+  {
+    "id": 22,
+    "cargo": "Assistente de Logística",
+    "cidade": "São paulo - SP",
+    "empresa": "Nova Era Serviços",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 6000,
+    "publicadaEm": "2026-09-12"
+  },
+  {
+    "id": 23,
+    "cargo": "Analista de Dados",
+    "cidade": "Pomerode - SC",
+    "empresa": "Horizonte Soluções",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 7000,
+    "publicadaEm": "2026-10-05"
+  },
+  {
+    "id": 24,
+    "cargo": "Atendimento",
+    "cidade": "São paulo - SP",
+    "empresa": "NexaTech",
+    "tipo": "CLT",
+    "tempo": "Tempo Integral",
+    "salario": 5000,
+    "publicadaEm": "2026-09-20"
+  },
+  {
+    "id": 25,
+    "cargo": "Atendimento",
+    "cidade": "Santos - SP",
+    "empresa": "NexaTech",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 8000,
+    "publicadaEm": "2026-10-05"
+  },
+  {
+    "id": 26,
+    "cargo": "Cozinheiro(a)",
+    "cidade": "São Vicente - SP",
+    "empresa": "Prisma Saúde",
+    "tipo": "Estágio",
+    "tempo": "Noturno",
+    "salario": 2000,
+    "publicadaEm": "2026-09-24"
+  },
+  {
+    "id": 27,
+    "cargo": "Cozinheiro(a)",
+    "cidade": "Santos - SP",
+    "empresa": "Vértice Consultoria",
+    "tipo": "CLT",
+    "tempo": "Tempo Integral",
+    "salario": 4000,
+    "publicadaEm": "2026-09-17"
+  },
+  {
+    "id": 28,
+    "cargo": "Desenvolvedor Full Stack",
+    "cidade": "Anta Gorda - SP",
+    "empresa": "Rota Sul Transportes",
+    "tipo": "CLT",
+    "tempo": "Noturno",
+    "salario": 4000,
+    "publicadaEm": "2026-10-02"
+  },
+  {
+    "id": 29,
+    "cargo": "Desenvolvedor Full Stack",
+    "cidade": "Pintópolis - MG",
+    "empresa": "InovaLar",
+    "tipo": "Temporário",
+    "tempo": "Tempo Integral",
+    "salario": 8000,
+    "publicadaEm": "2026-09-18"
+  },
+  {
+    "id": 30,
+    "cargo": "Cuidador(a)",
+    "cidade": "São Vicente - SP",
+    "empresa": "LulaMais",
+    "tipo": "Temporário",
+    "tempo": "Tempo Integral",
+    "salario": 6000,
+    "publicadaEm": "2026-09-10"
+  }
+]
